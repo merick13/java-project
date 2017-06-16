@@ -6,6 +6,10 @@ package pl.edu.pwsz.student.demo;
 public class demo {
 
     public static void main(String[] args) {
-        System.out.println("Michał");
+
+        Student s1 = new Student();
+        s1.setName("Stefan");
+        s1.setLastname("Sieciowiec");
+        System.out.println("Stefan " + "Sieciowiec");
     }
 }
