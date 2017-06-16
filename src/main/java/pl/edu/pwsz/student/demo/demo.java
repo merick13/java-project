@@ -8,8 +8,8 @@ public class demo {
     public static void main(String[] args) {
 
         Student s1 = new Student();
-        s1.setName("Stefan");
-        s1.setLastname("Sieciowiec");
-        System.out.println("Stefan " + "Sieciowiec");
+        s1.setName("Albert");
+        s1.setLastname("Albecki");
+        System.out.println("s1: " + s1.getName() + " " + s1.getLastname());
     }
 }
